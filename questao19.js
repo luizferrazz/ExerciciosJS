@@ -2,4 +2,4 @@
 a área desse triângulo. A precisão deverá ser de duas casas decimais,
 arredondando se necessário */
 anyTriangle = (base, height) =>(base * height)  / 2
-console.log(anyTriangle(20, 15)) 
+console.log(anyTriangle(20, 15).toFixed(2)) 
